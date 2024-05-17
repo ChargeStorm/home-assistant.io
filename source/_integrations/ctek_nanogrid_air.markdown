@@ -12,22 +12,28 @@ ha_integration_type: integration
 ---
 
 # CTEK Nanogrid Air
-The CTEK Nanogrid Air integration allows you to connect your Nanogrid Air wireless gateway energy meter to Home Assistant. The gateway safely and automatically balances the energy load in the your home at any time of the day, allowing you to charge your EVs while your appliances still get the power they need.
+
+The CTEK Nanogrid Air integration facilitates seamless connectivity between your Nanogrid Air wireless gateway energy meter and Home Assistant. This integration empowers you to optimize energy distribution within your home, ensuring efficient charging for your electric vehicles (EVs) while prioritizing power allocation for essential appliances.
 
 {% include integrations/config_flow.md %}
 
 ## Troubleshooting
+
 <div class='note'>
 If you do not have mDNS, when adding integration, you need to add the IP address manually, otherwise it will be added automatically.
 </div>
 
-### If you encounter problems
-- Check that the Nanogrid Air is connected to the electricity meter and that it is turned on.
-- Refer to the Nanogrid Air manual for troubleshooting steps if it is not turned on.
-- Disconnect the Nanogrid Air and reconnect it.
+### Encountering issues? Here's what you can do
+
+- Verify the Nanogrid Air's connection to the electricity meter and ensure it's switched on.
+- Consult the Nanogrid Air manual for further troubleshooting guidance if needed.
+- Attempt to resolve issues by disconnecting and reconnecting the Nanogrid Air.
 
 ### Firmware updates
-After updating your Nanogrid Air firmware it might be necessary to repeat the configuration process. If you encounter problems:
-- When configured using the integration: Remove the integration through Settings > Integrations > CTEK Nanogrid Air > Delete (trash can icon)
 
-Restart Home Assistant. Then repeat the steps like during initial setup.
+After updating your Nanogrid Air's firmware, you may need to reconfigure the integration. Follow these steps if problems persist:
+
+- When configured using the integration:
+  Remove the integration through Settings > Integrations > CTEK Nanogrid Air > Delete (trash can icon)
+
+- Restart Home Assistant, then repeat the steps like during initial setup.
