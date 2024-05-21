@@ -33,7 +33,6 @@ If you do not have mDNS, when adding integration, you need to add the IP address
 
 After updating your Nanogrid Air's firmware, you may need to reconfigure the integration. Follow these steps if problems persist:
 
-- When configured using the integration:
-  Remove the integration through Settings > Integrations > CTEK Nanogrid Air > Delete (trash can icon)
+- Remove the integration through Settings > Integrations > CTEK Nanogrid Air > Delete (trash can icon)
 
 - Restart Home Assistant, then repeat the steps from the initial setup.
