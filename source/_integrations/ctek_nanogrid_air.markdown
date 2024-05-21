@@ -36,4 +36,4 @@ After updating your Nanogrid Air's firmware, you may need to reconfigure the int
 - When configured using the integration:
   Remove the integration through Settings > Integrations > CTEK Nanogrid Air > Delete (trash can icon)
 
-- Restart Home Assistant, then repeat the steps like during initial setup.
+- Restart Home Assistant, then repeat the steps from the initial setup.
